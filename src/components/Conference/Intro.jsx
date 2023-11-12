@@ -147,7 +147,7 @@ const Intro = () => {
                                     onChange={(e) => setName(e.target.value)}
                                     name='username'
                                     className='block py-2 px-0 text-sm text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none
-                                dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer
+                                dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-black focus:border-blue-600 peer
                                 lg:w-72
                                 sm:w-full'
                                     placeholder='Full name'
@@ -182,7 +182,7 @@ const Intro = () => {
                                     name='phonenumber'
                                     onChange={(e) => setPhone(e.target.value)}
                                     className='block lg:w-72 py-2 px-0 text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none
-                                dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer
+                                dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-black focus:border-blue-600 peer
                                 sm:w-full'
                                     placeholder='Phone number' />
                             </div>
